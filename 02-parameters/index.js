@@ -38,6 +38,9 @@ app.get('/addThree', function(req,res){
     res.send("The sum is " + sum);
 })
 
+// send data via POST
+
+
 app.listen(3000, function(){
     console.log("Server working");
 });
